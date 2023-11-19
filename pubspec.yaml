@@ -8,11 +8,10 @@ environment:
   sdk: ">=2.17.0 <3.0.0"
 
 dependencies:
-  twitter_api_core:
-      git:
-      url: https://github.com/allentown521/twitter-api-core
-  #freezed_annotation: ^2.2.0
-  #json_annotation: ^4.7.0
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.7.0
+    twitter_api_core:
+      git: https://github.com/allentown521/twitter-api-core
 
 dev_dependencies:
   lints: ^2.0.0
